@@ -16,7 +16,7 @@ int main()
   }
    for(int i= 0; i<size; i++)
    {
-   cout << "Your" << i+1 << "favourite foods are - " << foods[i] << '\n';
+   cout << "Your #" << i+1 << " favourite foods are - " << foods[i] << '\n';
    }
 
 
@@ -25,4 +25,5 @@ int main()
 
 return 0;
 }
+
  //use function .empty() to remove spaces ( more advanced maybe )
