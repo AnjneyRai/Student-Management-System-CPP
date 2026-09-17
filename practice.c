@@ -36,22 +36,22 @@ int main()
         printf("\n");
     }
 
-    printf("Product is: \n");    //multiplication
-    for(int i=0;i<3;i++)
-    {  
-        for(int j=0;j<3;j++)
+    printf("Product is: \n");    //product
+    for(int i=0;i<3;i++)                      //per row loop
+    {                                       
+        for(int j=0;j<3;j++)                                //per coloumn loop
         {
-            mat5[i][j] = 0;
+            mat4[i][j] = 0;    
             for(int k=0;k<3;k++)
-            {
-                mat5[i][j] = mat5[i][j] + ( mat[i][k] * mat2[k][j]);               
+            {                                                              //per element loop
+                mat4[i][j] = mat4[i][j] + ( mat[i][k] * mat2[k][j]);               
             }
-            printf("%d ", mat5[i][j]);
+            printf("%d ", mat4 [i][j]);
         }
         printf("\n");
     }
 
-    printf("Transpose of sum matrix is: \n");
+    printf("Transpose of sum matrix is: \n");  //Transpose
     for(int i=0;i<3;i++)
     {
         for(int j=0;j<3;j++)
@@ -68,7 +68,7 @@ int main()
         } printf("\n");
     }
     
-    for(int i=0;i<3;i++)
+    for(int i=0;i<3;i++)  //ood even indices element sum
     {
         for(int j=0;j<3;j++)
         {
