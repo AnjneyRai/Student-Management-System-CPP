@@ -16,5 +16,11 @@ int main()
     name2[s]= '\0';
 printf("%s", name2);
 
+if(name == name2)
+{
+    printf("Palindrome\n");
+}
+else
+printf("not");
     return 0;
 }
