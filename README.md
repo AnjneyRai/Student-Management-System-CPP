@@ -1,0 +1,1 @@
+This repository includes all my university related C and C++ code and my first project a student management system made using C++ using foundational concepts such as vector, structs and switch statements.
